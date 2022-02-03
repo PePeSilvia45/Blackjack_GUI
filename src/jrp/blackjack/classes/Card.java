@@ -12,54 +12,6 @@ public class Card {
     private String card_name;
     private String card_file_path;
 
-    public int getCard_id() {
-        return card_id;
-    }
-
-    public int getCard_value() {
-        return card_value;
-    }
-
-    public boolean isCard_alt_value() {
-        return card_alt_value;
-    }
-
-    public String getCard_suit() {
-        return card_suit;
-    }
-
-    public String getCard_name() {
-        return card_name;
-    }
-
-    public String getCard_file_path() {
-        return card_file_path;
-    }
-
-    public void setCard_id(int card_id) {
-        this.card_id = card_id;
-    }
-
-    public void setCard_value(int card_value) {
-        this.card_value = card_value;
-    }
-
-    public void setCard_alt_value(boolean card_alt_value) {
-        this.card_alt_value = card_alt_value;
-    }
-    
-    public void setCard_suit(String card_suit) {
-        this.card_suit = card_suit;
-    }
-
-    public void setCard_name(String card_name) {
-        this.card_name = card_name;
-    }
-
-    public void setCard_file_path(String car_file_path) {
-        this.card_file_path = car_file_path;
-    }
-
     public Card() {
     }
 
@@ -82,4 +34,56 @@ public class Card {
         this.card_file_path = car_file_path;
         this.card_alt_value = card_alt_value;
     }
+
+//========================GETTERS===============================================
+    public int getCard_id() {
+        return card_id;
+    }
+
+    public int getCard_value() {
+        return card_value;
+    }
+
+    public boolean hasCard_alt_value() {
+        return card_alt_value;
+    }
+
+    public String getCard_suit() {
+        return card_suit;
+    }
+
+    public String getCard_name() {
+        return card_name;
+    }
+
+    public String getCard_file_path() {
+        return card_file_path;
+    }
+//==============================================================================
+
+//========================SETTERS===============================================    
+    public void setCard_id(int card_id) {
+        this.card_id = card_id;
+    }
+
+    public void setCard_value(int card_value) {
+        this.card_value = card_value;
+    }
+
+    public void setCard_alt_value(boolean card_alt_value) {
+        this.card_alt_value = card_alt_value;
+    }
+
+    public void setCard_suit(String card_suit) {
+        this.card_suit = card_suit;
+    }
+
+    public void setCard_name(String card_name) {
+        this.card_name = card_name;
+    }
+
+    public void setCard_file_path(String car_file_path) {
+        this.card_file_path = car_file_path;
+    }
+//==============================================================================
 }
